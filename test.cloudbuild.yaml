@@ -15,4 +15,4 @@ steps:
     args:
       - "-c"
       - |
-        gcloud container images delete us-central1-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/hellospring
+        gcloud container images delete eu-west1-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/hellospring
